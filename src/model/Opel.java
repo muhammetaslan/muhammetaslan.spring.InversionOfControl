@@ -31,4 +31,16 @@ public class Opel implements Car {
 		
 		
 	}
+
+	@Override
+	public String getModel() {
+		
+		return null;
+	}
+
+	@Override
+	public int price() {
+		
+		return 0;
+	}
 }
