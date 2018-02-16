@@ -5,19 +5,19 @@ public class Volkswagen implements Car {
 	@Override
 	public void driveCar() {
 		
-		
+		System.out.println("I am driving Volkswagen");
 	}
 
 	@Override
 	public void stopCar() {
 		
-		
+		System.out.println("I am stoping Volkswagen");
 	}
 
 	@Override
 	public void takePassenger(int numberOfPassenger) {
 		
-		
+		System.out.println("I am taking " + numberOfPassenger + " of passenger");
 	}
 
 	@Override
@@ -35,12 +35,12 @@ public class Volkswagen implements Car {
 	@Override
 	public String getModel() {
 		
-		return null;
+		return "Volkswagen jetta";
 	}
 
 	@Override
 	public int price() {
 		
-		return 0;
+		return 58500;
 	}
 }

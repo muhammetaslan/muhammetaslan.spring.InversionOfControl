@@ -5,19 +5,19 @@ public class Opel implements Car {
 	@Override
 	public void driveCar() {
 		
-		
+		System.out.println("I am driving Opel");
 	}
 
 	@Override
 	public void stopCar() {
 		
-		
+		System.out.println("I am stoping Opel");
 	}
 
 	@Override
 	public void takePassenger(int numberOfPassenger) {
 		
-		
+		System.out.println("I take " + numberOfPassenger + " of passenger");
 	}
 
 	@Override
@@ -35,12 +35,12 @@ public class Opel implements Car {
 	@Override
 	public String getModel() {
 		
-		return null;
+		return "Opel Corsa";
 	}
 
 	@Override
 	public int price() {
 		
-		return 0;
+		return 28000;
 	}
 }

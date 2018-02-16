@@ -5,19 +5,19 @@ public class BMW implements Car {
 	@Override
 	public void driveCar() {
 		
-		
+		System.out.println("I am driving BMW ");
 	}
 
 	@Override
 	public void stopCar() {
 		
-		
+		System.out.println("I am stop the BMW");
 	}
 
 	@Override
 	public void takePassenger(int numberOfPassenger) {
 		
-		
+		System.out.println("I take "  + numberOfPassenger + " of passenger");
 	}
 
 	@Override
@@ -35,13 +35,13 @@ public class BMW implements Car {
 	@Override
 	public String getModel() {
 		
-		return null;
+		return "BMW 520 d";
 	}
 
 	@Override
 	public int price() {
 		
-		return 0;
+		return 186000;
 	}
 
 }
